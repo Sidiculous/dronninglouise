@@ -34,3 +34,30 @@ img {
   max-width: 100%; /* Bredde må maks fylde 100% */
   height: auto; /* Højden skal tilpasse sig */
 }
+
+
+.imgbox{
+  height: 90vh;
+}
+.maintext{
+  font-family: coolvetica, "coolvetica regluer, bold,";
+  font-size: 3.8rem;
+  padding: 250px 0 0 0;
+  color: #f4f5f9;
+}
+.subtext{
+  font-family: coolvetica;
+  font-size: 1.5rem;
+  color: #f7f6f6;
+}
+.fa-brands{
+color: #0c1da6;
+  font-size: 2rem;
+}
+.ptext{
+  color: #fffefe;
+  font-family: coolvetica;
+}
+.socialbox{
+padding: 45vh 0 0 0;
+}
