@@ -18,11 +18,13 @@
     <meta name="copyright" content="Information om copyright">
 
     <!-- Sikrer man kan benytte CSS ved at tilkoble en CSS fil -->
-    <link href="css/bootstrap.scss" rel="stylesheet" type="text/css">
-    <link href="css/styles.scss" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
 
     <!-- Sikrer den vises korrekt på mobil, tablet mv. ved at tage ift. skærmstørrelse - bliver brugt til responsive websider -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/ede39c7ba1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/xhu1hpi.css">
 </head>
 
 <!-- i <body> har man alt indhold på siden som brugeren kan se -->
@@ -39,21 +41,65 @@
 
 <!---------------------------------Main slut------------------------------------>
 
-
+<div class="bg-primary">
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+    <p>This is filler</p>
+</div>
 
 
 <!---------------------------------footer----------------------------------------->
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col text-center overskrift mt-4 mb-2">
+            Dronning Louise
+        </div>
+    </div>
+
+    <div class="row">
+        <div type="button" class="top-icon btn btn-floating btn-lg col text-center top-icon mb-2" id="btn-back-to-top">
+            Gå til toppen <i class="fa fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col m-4">
+            <i class="fa fa-solid fa-envelope"></i> Scooby@gmail.com
+        </div>
+    </div>
+    <div class="row">
+        <div class="col m-4">
+            <i class="fa fa-solid fa-phone"></i> 31 55 08 04
+        </div>
+        <div class="col text-end m-4">
+            <i class="face-icon fa fa-brands fa-facebook"></i> Følg os på Facebook
+        </div>
+    </div>
+</div>
+
+
 
 <!---------------------------------footer slut------------------------------------>
 
-
-
-
-
-
-
-
-
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>document.querySelector("#btn-back-to-top").addEventListener("click", () => window.scroll(0, 0));</script>
 </body>
 </html>
