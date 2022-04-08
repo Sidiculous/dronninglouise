@@ -96,3 +96,28 @@ padding: 53vh 0 0 0;
   min-height: 50vh;
   height: 100vh;
 }
+
+
+@media screen and (min-width: 360px) {
+  .socialbox{
+    padding: 30vh 0 0 0;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .socialbox{
+    padding: 25vh 0 0 0;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .socialbox{
+    padding: 43vh 0 0 0;
+  }
+}
+
+@media screen and (min-width: 412px) {
+  .socialbox{
+    padding: 54vh 0 0 0;
+  }
+}
