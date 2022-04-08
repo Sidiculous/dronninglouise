@@ -37,7 +37,7 @@ img {
 
 .footer{
   font-family: "coolvetica light";
-  background-color: black;
+  background-color: #111111;
   color: white;
 
 }
@@ -98,5 +98,14 @@ color: #0c1da6;
   height: 100vh;
 }
 
+/*---------------------------------------------Mads CSS--------------------------------------------*/
 
-
+.bg-grey{
+  background-color: #efefef;
+}
+.on-hover{
+  text-decoration: none;
+}
+.on-hover:hover{
+  text-decoration: underline;
+}
