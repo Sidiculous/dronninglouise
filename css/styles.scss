@@ -36,7 +36,7 @@ img {
 }
 
 .footer{
-  font-family: "coolvetica light";
+  font-family: 'coolvetica light', serif;
   background-color: #111111;
   color: white;
 
@@ -45,7 +45,7 @@ img {
   color: #0a53be;
 }
 .overskrift{
-  font-family: coolvetica;
+  font-family: coolvetica, serif;
   font-size: 35px;
 
 }
@@ -62,13 +62,13 @@ html, body{
   height: 90vh;
 }
 .maintext{
-  font-family: coolvetica, "coolvetica regluer, bold,";
+  font-family: coolvetica, "coolvetica regluer, bold,", serif;
   font-size: 3.8rem;
   padding: 250px 0 0 0;
   color: #f4f5f9;
 }
 .subtext{
-  font-family: coolvetica;
+  font-family: coolvetica, serif;
   font-size: 1.5rem;
   color: #f7f6f6;
 
@@ -79,7 +79,7 @@ color: #0c1da6;
 }
 .ptext{
   color: #fffefe;
-  font-family: coolvetica;
+  font-family: coolvetica, serif;
 }
 .socialbox{
   top: 93vh;
@@ -115,4 +115,7 @@ color: #0c1da6;
 }
 .carousel-control-next{
   width: 7.5%;
+}
+.my-normal-font{
+  font-family: 'Lora', serif;
 }
