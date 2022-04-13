@@ -6,6 +6,7 @@
 
 body {
   margin: 0; /* Ingen kanter i siden af browser */
+  font-family: 'Lora', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,8 +36,10 @@ img {
   height: auto; /* Højden skal tilpasse sig */
 }
 
+//--------------------------------Sigurds css----------------------------------------------
+
 .footer{
-  font-family: 'coolvetica light', serif;
+  //font-family: 'coolvetica light', serif;
   background-color: #111111;
   color: white;
 
@@ -44,11 +47,7 @@ img {
 .face-icon{
   color: #0a53be;
 }
-.overskrift{
-  font-family: coolvetica, serif;
-  font-size: 35px;
 
-}
 .top-icon{
   color: #C2C2C2;
   font-size: 20px;
@@ -58,28 +57,13 @@ html, body{
 }
 
 
+//------------------------------------Chrs css------------------------------------------
 .imgbox{
   height: 90vh;
-}
-.maintext{
-  font-family: coolvetica, "coolvetica regluer, bold,", serif;
-  font-size: 3.8rem;
-  padding: 250px 0 0 0;
-  color: #f4f5f9;
-}
-.subtext{
-  font-family: coolvetica, serif;
-  font-size: 1.5rem;
-  color: #f7f6f6;
-
 }
 .fa-brandschr{
 color: #0c1da6;
   font-size: 3rem;
-}
-.ptext{
-  color: #fffefe;
-  font-family: coolvetica, serif;
 }
 .socialbox{
   top: 93vh;
@@ -115,7 +99,4 @@ color: #0c1da6;
 }
 .carousel-control-next{
   width: 7.5%;
-}
-.my-normal-font{
-  font-family: 'Lora', serif;
 }
