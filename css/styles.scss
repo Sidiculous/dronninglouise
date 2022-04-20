@@ -62,7 +62,6 @@ html, body{
   height: 90vh;
 }
 .fa-brandschr{
-color: #0c1da6;
   font-size: 3rem;
 }
 .socialbox{
@@ -84,7 +83,14 @@ color: #0c1da6;
 
 /*---------------------------------------------Mads CSS--------------------------------------------*/
 .overskrift{
-  font-family: Helvetica, sans-serif;
+  //font-family: Helvetica, sans-serif;
+  //font-family: 'Acme', sans-serif;
+  //font-family: 'Concert One', cursive;
+  //font-family: 'Staatliches', cursive;
+  font-family: 'Gabriela', serif;
+}
+.normalparagraph{
+
 }
 .bg-grey{
   background-color: #b6b6b6;
